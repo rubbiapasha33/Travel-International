@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">TravelBloom</div>
+        <ul>
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." id="search-input">
+            <button onclick="search()">Search</button>
+            <button onclick="clearResults()">Reset</button>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div class="home">
+        <img src="background.jpg" alt="Background Image" class="background-img"> <!-- Add your background image -->
+        <div class="intro">
+            <h1>Welcome to TravelBloom</h1>
+            <p>Your ultimate travel guide. Discover amazing places to visit, from beaches to temples and vibrant cities.</p>
+        </div>
+        <div class="social-media">
+            <!-- Add social media icons here -->
+        </div>
+    </div>
+
+    <!-- About Us Page -->
+    <div class="about">
+        <h2>About Us</h2>
+        <p>TravelBloom is dedicated to providing you with the best travel recommendations.</p>
+        <h3>Our Team</h3>
+        <ul>
+            <li>John Doe - Founder</li>
+            <li>Jane Smith - Travel Expert</li>
+            <li>Mike Johnson - Content Creator</li>
+        </ul>
+    </div>
+
+    <!-- Contact Us Page -->
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
