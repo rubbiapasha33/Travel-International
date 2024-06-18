@@ -62,6 +62,17 @@ section {
     padding: 100px 20px;
 }
 
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: white;
+    font-size: 2em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
 .about, .contact {
     padding: 60px 20px;
     background-color: lightpink; /* Change background color to light pink for About and Contact sections */
