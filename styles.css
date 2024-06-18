@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: green; /* Change background color to green */
 }
 
 nav {
@@ -78,3 +79,6 @@ section {
     margin-top: 5px;
     padding: 10px;
 }
+
+
+
