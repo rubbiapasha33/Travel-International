@@ -43,8 +43,8 @@ function search() {
 
 // Display search results
 function displayResults(results) {
-    const resultsContainer = document.createElement('div');
-    resultsContainer.id = 'results-container';
+    const resultsContainer = document.getElementById('results');
+    resultsContainer.innerHTML = ''; // Clear previous results
     results.forEach(result => {
         const resultItem = document.createElement('div');
         resultItem.innerHTML = `
@@ -54,14 +54,11 @@ function displayResults(results) {
         `;
         resultsContainer.appendChild(resultItem);
     });
-    document.body.appendChild(resultsContainer);
 }
 
 // Clear search results
 function clearResults() {
     document.getElementById('search-input').value = '';
-    const resultsContainer = document.getElementById('results-container');
-    if (resultsContainer) {
-        resultsContainer.remove();
-    }
+    const resultsContainer = document.getElementById('results');
+    resultsContainer.innerHTML = '';
 }
