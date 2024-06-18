@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: green; /* Change background color to green */
+    background-color: lightpink; /* Change background color to light pink */
 }
 
 nav {
@@ -64,7 +64,7 @@ section {
 
 .about, .contact {
     padding: 60px 20px;
-    background-color: green; /* Change background color to green for About and Contact sections */
+    background-color: lightpink; /* Change background color to light pink for About and Contact sections */
 }
 
 .contact form {
@@ -79,4 +79,28 @@ section {
 .contact form input, .contact form textarea, .contact form button {
     margin-top: 5px;
     padding: 10px;
+}
+
+.results {
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+.results div {
+    margin-bottom: 20px;
+}
+
+.results h3 {
+    margin: 0 0 10px;
+}
+
+.results img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.results p {
+    margin: 10px 0 0;
 }
