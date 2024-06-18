@@ -16,7 +16,7 @@ function search() {
     fetchData().then(data => {
         let results = [];
 
-        // Search through countries, temples, and beaches
+        // Search through countries, cities, temples, and beaches
         data.countries.forEach(country => {
             country.cities.forEach(city => {
                 if (city.name.toLowerCase().includes(query)) {
@@ -40,6 +40,7 @@ function search() {
         displayResults(results);
     });
 }
+
 
 // Display search results
 function displayResults(results) {
