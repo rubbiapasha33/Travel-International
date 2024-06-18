@@ -63,3 +63,4 @@ function clearResults() {
     const resultsContainer = document.getElementById('results');
     resultsContainer.innerHTML = '';
 }
+
